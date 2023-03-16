@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News | Wave | 1.0</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+  #nav-img{
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+    </style>
+  </head>
+  <body>
+    <header id="one">
+      <nav id="navbar">
+        <img src="icons/logo3.jpg"/>
+        <img src="icons/icons80.png" alt="" id="nav-img" onclick="change()">
+      </nav>
+      <div id="list-box">
+        <ul id="list">
+          <button></button><li onclick="main('politics')"><button>Home</button></li>
+          <li onclick="main('sports')"><button>Sport</button></li>
+          <li onclick="main('politics')"><button>Politics</button></li>
+          <li onclick="main('business')"><button>business</button></li>
+          <li onclick="main('international')"><button>International</button></li>
+          <li onclick="main('education')"><button>Education</button></li>
+          <li onclick="main('technology')"><button>Technology</button></li>
+          <li onclick="main('health')"><button>Health</button></li>
+          <li onclick="main('crime')"><button>Crime</button></li>
+          <li onclick="main('entertainment')"><button>Entertainment</button></li>
+          <li onclick="main('automobile')"><automobile><button> Automobile</button></li>
+        </ul>
+      </div>
+      <hr>
+      <div class="show-case">
+        <img src="" alt="" id="main-img">
+        <h1 id="main-h1"></h1>
+      </div>
+    </header>
+    <div id="container">
+
+    </div>
+    <footer>All rights reserved @NewsWave</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
